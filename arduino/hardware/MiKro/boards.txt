@@ -1,0 +1,16 @@
+mikro.name=MiKro
+mikro.upload.protocol=arduino
+mikro.upload.maximum_size=130048
+mikro.upload.speed=115200
+mikro.bootloader.low_fuses=0xFF
+mikro.bootloader.high_fuses=0xDA
+mikro.bootloader.extended_fuses=0xFF
+mikro.bootloader.path=optiboot
+mikro.bootloader.file=optiboot_atmega1284p.hex
+mikro.bootloader.unlock_bits=0x3F
+mikro.bootloader.lock_bits=0x0F
+mikro.build.mcu=atmega1284p
+mikro.build.f_cpu=16000000L
+mikro.build.core=arduino:arduino
+mikro.build.variant=1284
+
